@@ -58,6 +58,7 @@ if __name__ == '__main__':
     squares = list(map(lambda x: x ** 2, numbers))
     print(squares)
 
+    # 强制位置参数
     # / 和 *, /现在很少用了
     # *后面的参数必须用关键字传输, /之前的参数是定位参数, 后面的参数是关键字参数
     test04(10, 20, 30, 40, e=50, f=60)

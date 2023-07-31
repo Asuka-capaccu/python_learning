@@ -1,6 +1,6 @@
 # int float bool complex
 if __name__ == '__main__':
-    a = 1000
+    a = 10000000
     print(type(a))
     print(isinstance(a, int))
     b = True
